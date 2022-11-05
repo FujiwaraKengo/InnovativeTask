@@ -72,6 +72,11 @@ flutter:
     - assets/Mom.jpg
     - assets/Lola_susing.jpg
     - MobileProgramming.jpg
+    - assets/mondejar.jpg
+    - assets/tessie.jpg
+    - assets/indat.jpg
+    - assets/papa.jpeg
+    - assets/download.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
