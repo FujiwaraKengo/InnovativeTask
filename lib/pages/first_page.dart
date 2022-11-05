@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:innovativetest/pages/tabs/Jonard_Estamo/tab_jonard_one.dart';
 import 'tabs/tab_one.dart';
-
 
 class MobileAppLayout extends StatefulWidget {
   const MobileAppLayout({Key? key}) : super(key: key);
@@ -16,7 +16,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
 
   @override
   void initState() {
-    tabController = TabController(length: 1, vsync: this);
+    tabController = TabController(length: 2, vsync: this);
     super.initState();
   }
 
@@ -56,7 +56,10 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
             controller: tabController,
             tabs: const [
               Tab(
-                child: Text("DACUT FAMILY"),
+                child: Text("DACUT FAMILY")
+              ),
+              Tab(
+                child: Text('Jonard Estamo'),
               ),
             ],
           )
@@ -64,8 +67,8 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
       body:TabBarView(
         controller: tabController,
           children: const [
-            FirstTab(),
-
+            Tab(child: FirstTab()),
+            Tab(child: TabJonard()),
           ],
         ),
     );
