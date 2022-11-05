@@ -93,6 +93,8 @@ flutter:
     - assets/KianNeriOct4,2005.jpg
     - assets/KyleCyrusNeriFeb23,2001.jpg
     - assets/RuelNeriAug29,1973.jpg
+    - assets/DacutPapa.jpg
+    - assets/DacutMama.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

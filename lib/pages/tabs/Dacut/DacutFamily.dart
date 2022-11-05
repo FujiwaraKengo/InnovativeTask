@@ -30,7 +30,7 @@ List<Dacut> detailList = [
 
   ),
   Dacut (
-    image: "assets/mother.jpg",
+    image: "assets/DacutMama.jpg",
     name: "Dailene Rose Dacut",
     relationship:"Mother",
     occupation: "House Wife",
@@ -40,7 +40,7 @@ List<Dacut> detailList = [
   ),
 
   Dacut (
-    image: "assets/father.jpg",
+    image: "assets/DacutPapa.jpg",
     name: "Erdan Rey Dacut",
     relationship:"Father",
     occupation: "Commissioning Engineer",
