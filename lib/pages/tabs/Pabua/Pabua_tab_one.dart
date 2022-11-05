@@ -1,42 +1,37 @@
 import 'package:flutter/material.dart';
-import 'Dacut/DacutFamily.dart';
-import 'tab_three.dart';
+import 'Pabua_tab_three.dart';
+import 'Pabua_tab_two.dart';
 
+class PabuaTab extends StatelessWidget {
+  const PabuaTab({Key? key}) : super(key: key);
 
-class FirstTab extends StatefulWidget {
-  const FirstTab({Key? key}) : super(key: key);
-
-  @override
-  State<FirstTab> createState() => _FirstTabState();
-}
-
-class _FirstTabState extends State<FirstTab> {
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/backgrounddesign.jpg'),
+            image: AssetImage('assets/images/leaves.jpg'),
             fit: BoxFit.cover,
           )
       ),
       child: ListView.builder(
           itemCount: detailList.length,
           itemBuilder: (context, index) {
-            Dacut details = detailList [index];
+            Pabua details = detailList [index];
             return Card(
               child: ListTile(
                 title: Text(details.name.toString()),
                 subtitle: Text(details.relationship.toString()),
-                leading:  CircleAvatar(
+                leading: CircleAvatar(
                   radius: 30,
                   backgroundImage: AssetImage(details.image.toString()),
                 ),
                 trailing: const Icon(Icons.arrow_forward_ios_rounded),
-                onTap: (){
+                onTap: () {
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => RoutingPage (details)));
+                      MaterialPageRoute(
+                          builder: (context) => PabuaRoute(details)));
                 },
               ),
             );

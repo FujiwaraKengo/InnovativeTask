@@ -68,6 +68,10 @@ flutter:
     - assets/KennethBG.jpg
     - assets/peakpx.jpg
     - assets/MabantaBG.jpg
+    - assets/BrentPabua.jpg
+    - assets/Mom.jpg
+    - assets/Lola_susing.jpg
+    - MobileProgramming.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
