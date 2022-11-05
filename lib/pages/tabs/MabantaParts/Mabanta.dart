@@ -8,7 +8,7 @@ class Mabanta {
   String? occupation;
   String? birthday;
   String? bckimage =
-      "assets/KennethBG.jpg";
+      "assets/MabantaBG.jpg";
 
   Mabanta({
     @required this.image,
@@ -30,7 +30,7 @@ List<Mabanta> detailList = [
 
   ),
   Mabanta (
-    image: "assets/Mother.png",
+    image: "assets/MotherMabanta.png",
     name: "Theresa H. Mabanta",
     relationship:"Mother",
     occupation: "OFW",
@@ -40,7 +40,7 @@ List<Mabanta> detailList = [
   ),
 
   Mabanta (
-    image: "assets/Father.jpg",
+    image: "assets/FatherMabanta.jpg",
     name: "Heracleo J. Mabanta",
     relationship:"Father",
     occupation: "Self Employed",
@@ -50,7 +50,7 @@ List<Mabanta> detailList = [
   ),
 
   Mabanta (
-    image: "assets/Brother.jpg",
+    image: "assets/BrotherMabanta.jpg",
     name: "Frency Val H. Mabanta",
     relationship:"Brother",
     occupation: "Student",

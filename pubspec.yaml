@@ -66,6 +66,8 @@ flutter:
     - assets/MotherMabanta.png
     - assets/BrotherMabanta.jpg
     - assets/KennethBG.jpg
+    - assets/peakpx.jpg
+    - assets/MabantaBG.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
