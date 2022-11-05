@@ -8,7 +8,7 @@ class Dacut {
   String? occupation;
   String? birthday;
   String? bckimage =
-      "assets/MobileProgramming.jpg";
+      "assets/KennethBG.jpg";
 
   Dacut ({
     @required this.image,
