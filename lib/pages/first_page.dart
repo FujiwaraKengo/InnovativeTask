@@ -19,7 +19,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
 
   @override
   void initState() {
-    tabController = TabController(length: 8, vsync: this);
+    tabController = TabController(length: 9, vsync: this);
     super.initState();
   }
 
@@ -71,7 +71,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
                 child: Text('Pabua Family'),
               ),
               Tab(
-                child: Text('Mondejar Family'),
+                child: Text('MONDEJAR FAMILY'),
               ),
             ],
           )
