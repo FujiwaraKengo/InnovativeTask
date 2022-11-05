@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:innovativetest/pages/tabs/Jonard_Estamo/tab_jonard_one.dart';
 import 'package:innovativetest/pages/tabs/MabantaParts/MabantaTabOne.dart';
+import 'tabs/Mondejar/mondejar_tabOne.dart';
 import 'tabs/Pabua/Pabua_tab_one.dart';
 import 'tabs/tab_one.dart';
 
@@ -18,7 +19,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
 
   @override
   void initState() {
-    tabController = TabController(length: 4, vsync: this);
+    tabController = TabController(length: 8, vsync: this);
     super.initState();
   }
 
@@ -69,6 +70,9 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
               Tab(
                 child: Text('Pabua Family'),
               ),
+              Tab(
+                child: Text('Mondejar Family'),
+              ),
             ],
           )
       ),
@@ -79,6 +83,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
             Tab(child: TabJonard()),
             Tab(child: TabMabanta()),
             Tab(child: PabuaTab()),
+            Tab(child: MondejarTab()),
           ],
         ),
     );
