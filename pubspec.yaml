@@ -81,6 +81,9 @@ flutter:
     - assets/mamaLaug.jpg
     - assets/papaLaug.jpg
     - assets/bg.jpg
+    - assets/charmin.jpg
+    - assets/roselyn.jpg
+    - assets/rosemarie.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -8,7 +8,7 @@ class Mondejar {
   String? occupation;
   String? birthday;
   String? bckimage =
-      "assets/download.jpg";
+      "assets/images/MobileProgramming.jpg";
 
   Mondejar({
     @required this.image,
@@ -21,7 +21,7 @@ class Mondejar {
 }
 List<Mondejar> detailList = [
   Mondejar (
-    image: "assets/me.jpg",
+    image: "assets/mondejar.jpg",
     name: "Honeylee M. Mondejar",
     relationship:"Me",
     occupation: "Student",

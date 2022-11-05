@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:innovativetest/pages/tabs/Jonard_Estamo/tab_jonard_one.dart';
 import 'package:innovativetest/pages/tabs/Laug/tab_one_laug.dart';
+import 'package:innovativetest/pages/tabs/Lingkit/Tab.dart';
 import 'package:innovativetest/pages/tabs/MabantaParts/MabantaTabOne.dart';
 import 'tabs/Mondejar/mondejar_tabOne.dart';
 import 'tabs/Pabua/Pabua_tab_one.dart';
@@ -20,7 +21,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
 
   @override
   void initState() {
-    tabController = TabController(length: 6, vsync: this);
+    tabController = TabController(length: 7, vsync: this);
     super.initState();
   }
 
@@ -77,6 +78,9 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
               Tab(
                 child: Text('Laug-Laug FAMILY'),
               ),
+              Tab(
+                child: Text('Lingkit FAMILY'),
+              ),
             ],
           )
       ),
@@ -89,6 +93,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
             Tab(child: PabuaTab()),
             Tab(child: MondejarTab()),
             Tab(child: LaugTab()),
+            Tab(child: TabLingkit()),
           ],
         ),
     );
