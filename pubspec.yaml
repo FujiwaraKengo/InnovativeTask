@@ -84,6 +84,15 @@ flutter:
     - assets/charmin.jpg
     - assets/roselyn.jpg
     - assets/rosemarie.jpg
+    - assets/Background.jpg
+    - assets/CollinNeriSept13,2003.jpg
+    - assets/IMG_8682.jpg
+    - assets/IMG_8683.jpg
+    - assets/IMG_8684.jpg
+    - assets/JoyceNeriFeb8,1973.jpg
+    - assets/KianNeriOct4,2005.jpg
+    - assets/KyleCyrusNeriFeb23,2001.jpg
+    - assets/RuelNeriAug29,1973.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

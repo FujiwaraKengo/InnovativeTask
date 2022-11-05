@@ -3,6 +3,7 @@ import 'package:innovativetest/pages/tabs/Jonard_Estamo/tab_jonard_one.dart';
 import 'package:innovativetest/pages/tabs/Laug/tab_one_laug.dart';
 import 'package:innovativetest/pages/tabs/Lingkit/Tab.dart';
 import 'package:innovativetest/pages/tabs/MabantaParts/MabantaTabOne.dart';
+import 'package:innovativetest/pages/tabs/Neri/first_tab.dart';
 import 'tabs/Mondejar/mondejar_tabOne.dart';
 import 'tabs/Pabua/Pabua_tab_one.dart';
 import 'tabs/Dacut/tab_one.dart';
@@ -21,7 +22,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
 
   @override
   void initState() {
-    tabController = TabController(length: 7, vsync: this);
+    tabController = TabController(length: 8, vsync: this);
     super.initState();
   }
 
@@ -81,6 +82,9 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
               Tab(
                 child: Text('Lingkit FAMILY'),
               ),
+              Tab(
+                child: Text('Neri FAMILY'),
+              ),
             ],
           )
       ),
@@ -94,6 +98,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
             Tab(child: MondejarTab()),
             Tab(child: LaugTab()),
             Tab(child: TabLingkit()),
+            Tab(child: NeriTab()),
           ],
         ),
     );
