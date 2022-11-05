@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:innovativetest/pages/tabs/tab_two.dart';
+
+import 'Dacut/DacutFamily.dart';
 
 
 class RoutingPage extends StatelessWidget {
-  final Pabua details ;
+  final Dacut details ;
 
   const RoutingPage(this.details,  {super.key});
 
@@ -32,7 +33,7 @@ class RoutingPage extends StatelessWidget {
               margin: const EdgeInsets.only(left: 10, right: 10),
               decoration: const BoxDecoration(
                   border: Border(
-                      bottom: BorderSide(width: 0.5, color: Colors.white))),
+                      bottom: BorderSide(width: 0.5, color: Colors.black))),
               child: Row(
                 children: <Widget>[
                   const SizedBox(height: 50),
@@ -40,7 +41,7 @@ class RoutingPage extends StatelessWidget {
                     "Name",
                     textAlign: TextAlign.left,
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(right: 85.0),
@@ -48,7 +49,7 @@ class RoutingPage extends StatelessWidget {
                   Expanded(
                     child: Text(
                       ":  ${details.name}",
-                      style: const TextStyle(color: Colors.white),
+                      style: const TextStyle(color: Colors.black),
                     ),
                   ),
                 ],
@@ -58,7 +59,7 @@ class RoutingPage extends StatelessWidget {
               margin: const EdgeInsets.only(left: 10, right: 10),
               decoration: const BoxDecoration(
                   border: Border(
-                      bottom: BorderSide(width: 0.5, color: Colors.white))),
+                      bottom: BorderSide(width: 0.5, color: Colors.black))),
               child: Row(
                 children: <Widget>[
                   const SizedBox(height: 50),
@@ -66,14 +67,14 @@ class RoutingPage extends StatelessWidget {
                     "Relationship",
                     textAlign: TextAlign.left,
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(right: 47.0),
                   ),
                   Text(
                     ":  ${details.relationship}",
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                   ),
                 ],
               ),
@@ -82,7 +83,8 @@ class RoutingPage extends StatelessWidget {
               margin: const EdgeInsets.only(left: 10, right: 10),
               decoration: const BoxDecoration(
                   border: Border(
-                      bottom: BorderSide(width: 0.5, color: Colors.white))),
+                      bottom: BorderSide(width: 0.5, color: Colors.black
+                      ))),
               child: Row(
                 children: <Widget>[
                   const SizedBox(height: 50),
@@ -90,14 +92,14 @@ class RoutingPage extends StatelessWidget {
                     "Occupation",
                     textAlign: TextAlign.left,
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(right: 47.0),
                   ),
                   Text(
                     ":  ${details.occupation}",
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                   ),
                 ],
               ),
@@ -106,7 +108,7 @@ class RoutingPage extends StatelessWidget {
               margin: const EdgeInsets.only(left: 10, right: 10),
               decoration: const BoxDecoration(
                   border: Border(
-                      bottom: BorderSide(width: 0.5, color: Colors.white))),
+                      bottom: BorderSide(width: 0.5, color: Colors.black))),
               child: Row(
                 children: <Widget>[
                   const SizedBox(height: 30),
@@ -114,14 +116,14 @@ class RoutingPage extends StatelessWidget {
                     "Birthday",
                     textAlign: TextAlign.left,
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(right: 70.0),
                   ),
                   Text(
                     ":  ${details.birthday}",
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                   ),
                 ],
               ),
@@ -130,7 +132,7 @@ class RoutingPage extends StatelessWidget {
               margin: const EdgeInsets.only(left: 10, right: 10),
               decoration: const BoxDecoration(
                   border: Border(
-                      bottom: BorderSide(width: 0.5, color: Colors.white))),
+                      bottom: BorderSide(width: 0.5, color: Colors.black))),
               child: Row(
                 children: <Widget>[
                   const SizedBox(height: 30),
@@ -138,14 +140,14 @@ class RoutingPage extends StatelessWidget {
                     "Age",
                     textAlign: TextAlign.left,
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(right: 100.0),
                   ),
                   Text(
                     ":  ${details.age}",
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                   ),
                 ],
               ),

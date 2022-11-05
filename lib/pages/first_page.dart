@@ -28,7 +28,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
             backgroundColor: Colors.transparent,
             radius: 2,
           child: CircleAvatar(
-            backgroundImage: AssetImage("assets/USTP.jpg"),
+            backgroundImage: AssetImage("assets/ustp.jpg"),
           ),
           ),
           title: RichText(
@@ -56,7 +56,7 @@ class _MyAppState extends State<MobileAppLayout> with SingleTickerProviderStateM
             controller: tabController,
             tabs: const [
               Tab(
-                child: Text("Brent Pabua"),
+                child: Text("FAMILY"),
               ),
             ],
           )

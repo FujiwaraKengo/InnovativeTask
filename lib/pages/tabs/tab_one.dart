@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:innovativetest/pages/tabs/tab_three.dart';
-import 'package:innovativetest/pages/tabs/tab_two.dart';
+import 'Dacut/DacutFamily.dart';
+
 
 class FirstTab extends StatefulWidget {
   const FirstTab({Key? key}) : super(key: key);
@@ -15,14 +16,14 @@ class _FirstTabState extends State<FirstTab> {
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/leaves.jpg'),
+            image: AssetImage('assets/backgrounddesign.jpg'),
             fit: BoxFit.cover,
           )
       ),
       child: ListView.builder(
           itemCount: detailList.length,
           itemBuilder: (context, index) {
-            Pabua details = detailList [index];
+            Dacut details = detailList [index];
             return Card(
               child: ListTile(
                 title: Text(details.name.toString()),
